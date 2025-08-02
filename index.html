@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pankaj Salve | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body class="dark-mode">
+    <header class="navbar" role="banner">
+        <div class="navbar-container">
+            <a href="#" class="logo">Pankaj</a>
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark and light theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Open mobile menu" aria-expanded="false" aria-controls="nav-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section" data-aos="fade-up">
+            <div class="hero-content">
+                <h1 class="hero-title">Pankaj Salve</h1>
+                <p class="hero-subtitle">Developer, Educator & Data Analyst</p>
+                <p class="hero-tagline">Transforming ideas into digital solutions.</p>
+                <div class="hero-actions">
+                    <a href="assets/Pankaj_Salve_Resume.pdf" class="btn btn-primary" download>Download Resume <i class="fas fa-download"></i></a>
+                    <a href="https://drive.google.com/drive/folders/1ANglWUAdicDdQiWXwrxJnEhWHwa-xTxz?usp=drive_link" class="btn btn-secondary" target="_blank">View Certificates <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="social-links" aria-label="Social Media Links">
+                    <a href="https://github.com/pankajsalve" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/salvepankaj" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section content-section" data-aos="fade-up">
+            <div class="section-container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>Hello! I'm Pankaj Salve, a passionate developer with a knack for building robust digital solutions and sharing knowledge. My journey has taken me through various technologies, from C#.NET and Java to Python and web development. I believe in continuous learning and applying my skills to solve real-world problems. Whether it's a desktop application, a data pipeline, or a web project, I love the process of bringing an idea to life.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section content-section" data-aos="fade-up">
+            <div class="section-container">
+                <h2 class="section-title">Skills</h2>
+                <div class="slider-container">
+                    <div class="slider-wrapper" id="skills-slider-wrapper">
+                        <div class="slider" id="skills-slider">
+                            <div class="skill-card" data-aos="fade-right">
+                                <h3 class="skill-category">Programming Languages</h3>
+                                <div class="skill-badges">
+                                    <span>C</span>
+                                    <span>C++</span>
+                                    <span>Java</span>
+                                    <span>Python</span>
+                                    <span>C#.NET</span>
+                                </div>
+                            </div>
+                            <div class="skill-card" data-aos="fade-right" data-aos-delay="100">
+                                <h3 class="skill-category">Web Technologies</h3>
+                                <div class="skill-badges">
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>JavaScript</span>
+                                    <span>PHP</span>
+                                </div>
+                            </div>
+                            <div class="skill-card" data-aos="fade-right" data-aos-delay="200">
+                                <h3 class="skill-category">Databases</h3>
+                                <div class="skill-badges">
+                                    <span>MS Access</span>
+                                    <span>Oracle</span>
+                                    <span>MySQL</span>
+                                    <span>SQL Server</span>
+                                </div>
+                            </div>
+                            <div class="skill-card" data-aos="fade-right" data-aos-delay="300">
+                                <h3 class="skill-category">Operational Skills</h3>
+                                <div class="skill-badges">
+                                    <span>Computer Networks</span>
+                                    <span>Problem Solving</span>
+                                    <span>Technical Support</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slide-btn prev-btn" id="skills-prev-btn" aria-label="Previous Skills"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slide-btn next-btn" id="skills-next-btn" aria-label="Next Skills"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section content-section" data-aos="fade-up">
+            <div class="section-container">
+                <h2 class="section-title">Projects</h2>
+                <div class="slider-container">
+                    <div class="slider-wrapper" id="projects-slider-wrapper">
+                        <div class="slider" id="projects-slider">
+                            <article class="project-card" data-aos="fade-up">
+                                <h3 class="project-title">Medical Inventory System</h3>
+                                <p class="project-description">A desktop application built with C#.NET for efficient management of medical inventory, stock tracking, and reporting.</p>
+                                <div class="project-footer">
+                                    <span class="project-tech">C#.NET</span>
+                                    </div>
+                            </article>
+                            <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+                                <h3 class="project-title">Hostel Management System</h3>
+                                <p class="project-description">C#.NET system for managing hostel facilities, resident information, room allocation, and fee tracking.</p>
+                                <div class="project-footer">
+                                    <span class="project-tech">C#.NET</span>
+                                    </div>
+                            </article>
+                            <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+                                <h3 class="project-title">Data Pipeline (Java)</h3>
+                                <p class="project-description">Designed and implemented a scalable data pipeline using core Java and stream processing for data ingestion and transformation.</p>
+                                <div class="project-footer">
+                                    <span class="project-tech">Java, Stream API</span>
+                                    </div>
+                            </article>
+                            <article class="project-card" data-aos="fade-up" data-aos-delay="300">
+                                <h3 class="project-title">Facial Biometric Attendance</h3>
+                                <p class="project-description">A Python Flask application using facial recognition to automate and manage attendance records.</p>
+                                <div class="project-footer">
+                                    <span class="project-tech">Python, Flask</span>
+                                    </div>
+                            </article>
+                        </div>
+                    </div>
+                    <button class="slide-btn prev-btn" id="projects-prev-btn" aria-label="Previous Projects"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slide-btn next-btn" id="projects-next-btn" aria-label="Next Projects"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section content-section" data-aos="fade-up">
+            <div class="section-container">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Educator / Assistant Professor</h3>
+                            <p class="timeline-company">MBCL </p>
+                            <ul>
+                                <li>Designed and delivered engaging curricula for undergraduate and postgraduate students in Data Structures, Java, Android Development, and DBMS.</li>
+                                <li>Mentored and guided students in their academic projects, helping them apply theoretical knowledge to practical, real-world problems.</li>
+                                <li>Fostered a dynamic and interactive learning environment through a combination of lectures, hands-on labs, and student-led discussions.</li>
+                                <li>Actively participated in departmental meetings and contributed to academic planning and student performance evaluations.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-left" data-aos-delay="100">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Software Developer</h3>
+                            <p class="timeline-company">Kamalpro Solution </p>
+                            <ul>
+                                <li>Contributed to the full software development lifecycle (SDLC), from requirement analysis to deployment and maintenance.</li>
+                                <li>Developed and maintained a variety of applications, including web, desktop, and mobile, using different programming languages and frameworks.</li>
+                                <li>Collaborated with cross-functional teams to design, build, and test robust and scalable software solutions that met client requirements.</li>
+                                <li>Provided technical expertise and support, troubleshooting issues and optimizing application performance to ensure seamless user experiences.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Admin & Tech Support</h3>
+                            <p class="timeline-company">SBI Card | SFS</p>
+                            <ul>
+                                <li>Provided administrative and technical support to ensure smooth operation of internal systems and processes.</li>
+                                <li>Managed and analyzed data to generate reports, identify trends, and assist with decision-making processes.</li>
+                                <li>Resolved technical queries and provided timely solutions to system-related issues, maintaining high standards of service.</li>
+                                <li>Maintained and updated a centralized database of information, ensuring data integrity and accessibility for the team.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="relevant-experience" class="relevant-experience-section content-section">
+            <div class="section-container">
+                <h2 class="section-title">Relevant Experience</h2>
+                <div class="slider-container" id="relevant-exp-container">
+                    <div class="slider-wrapper" id="relevant-exp-slider-wrapper">
+                        <div class="slider" id="relevant-exp-slider">
+                            <article class="relevant-exp-card" data-aos="fade-up">
+                                <h3 class="relevant-exp-title">Hewlett Packard Enterprise Job Simulation</h3>
+                                <p class="relevant-exp-company">Forage | Virtual Experience</p>
+                                <ul class="relevant-exp-list">
+                                    <li>Wrote a proposal for a RESTful web service to manage a list of employees.</li>
+                                    <li>Built a web server application in Java Spring Boot to handle HTTP requests and JSON data.</li>
+                                    <li>Developed and ran a set of unit tests to assess the application’s performance.</li>
+                                </ul>
+                            </article>
+                            <article class="relevant-exp-card" data-aos="fade-up" data-aos-delay="100">
+                                <h3 class="relevant-exp-title">Electronic Arts Virtual Experience</h3>
+                                <p class="relevant-exp-company">Forage | Virtual Experience</p>
+                                <ul class="relevant-exp-list">
+                                    <li>Proposed a new feature for EA Sports College Football and wrote a Feature Proposal.</li>
+                                    <li>Built a class diagram and created a header file in C++ with class definitions.</li>
+                                    <li>Patched a bug fix and optimized the codebase with an improved data structure.</li>
+                                </ul>
+                            </article>
+                            <article class="relevant-exp-card" data-aos="fade-up" data-aos-delay="100">
+                                <h3 class="relevant-exp-title">Rajat Solution</h3>
+                                <p class="relevant-exp-company">Analyst</p>
+                                <ul class="relevant-exp-list">
+                                    <li>Collected, cleaned, and interpreted complex datasets to identify trends, patterns, and insights.</li>
+                                    <li>Developed and maintained dashboards and reports to visualize key performance indicators (KPIs) for stakeholders.</li>
+                                    <li>Performed root cause analysis to identify process inefficiencies and recommended data-driven improvements.</li>
+                                </ul>
+                            </article>
+                        </div>
+                    </div>
+                    <button class="slide-btn prev-btn" id="relevant-exp-prev-btn" aria-label="Previous relevant experience"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slide-btn next-btn" id="relevant-exp-next-btn" aria-label="Next relevant experience"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section content-section" data-aos="fade-up">
+            <div class="section-container">
+                <h2 class="section-title">Get in Touch</h2>
+                <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" aria-label="Your Name" required>
+                    <input type="email" name="_replyto" placeholder="Your Email" aria-label="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" aria-label="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; <span id="current-year"></span> Pankaj Salve. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({ once: true, duration: 800 });</script>
+</body>
+</html>
